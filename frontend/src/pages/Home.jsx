@@ -3,7 +3,7 @@ import axios from "axios";
 import React from "react";
 import { ClipboardCopy, RefreshCcw, Link as LinkIcon } from "lucide-react";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = import.meta.env.VITE_API_URL || "https://one-time-secret-message-app.onrender.com";
 
 function Home() {
   const [message, setMessage] = useState("");
